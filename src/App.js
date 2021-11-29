@@ -1,6 +1,6 @@
 import "./styles.scss";
-import { Route, Routes, useLocation } from "react-router";
-import { useSearchParams } from "react-router-dom";
+import { Route, Routes } from "react-router";
+import { useSearchParams, Navigate } from "react-router-dom";
 
 import ReactModal from "react-modal";
 // pages
@@ -31,6 +31,10 @@ export default function App() {
         <Routes>
           <Route path="/diia" element={<Home />} />
           <Route path="/notifications" element={<Notifications />} />
+          <Route
+            path="*"
+            element={<Navigate to="/diia" />}
+          />
         </Routes>
       </div>
       <Footer />

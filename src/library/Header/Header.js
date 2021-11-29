@@ -5,7 +5,7 @@ import "./Header.scss";
 const Header = () => {
   return (
     <header className="Header">
-      <Link to="/">
+      <Link to="/diia">
         <img
           src="https://raw.githubusercontent.com/vadvoice/assets/master/public/logos/circle-small.ico"
           alt="V"
