@@ -5,7 +5,6 @@ const vocabulary = {
   "QESTIONS": 'Задати питання'
 }
 const List = ({ options }) => {
-  console.log({ options });
   return (
     <ul className="List">
       {options.map((opt) => (

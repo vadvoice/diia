@@ -1,7 +1,12 @@
 .Notifications {
+  color: inherit;
   margin: 0 2em;
   h3 {
     text-align: center;
+  }
+  a {
+    color: inherit;
+    text-decoration: none;
   }
   .Notification {
     display: flex;

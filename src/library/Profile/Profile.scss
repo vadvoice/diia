@@ -3,7 +3,6 @@
   flex-direction: column;
   gap: 1em;
   flex: 1;
-  margin: 2em 0;
   color: inherit;
   border-bottom: 1px solid;
   padding-bottom: 1em;
@@ -28,8 +27,9 @@
   }
   &-bottom {
     color: inherit;
-    h3 {
+    p {
       text-align: start;
+      margin: 0;
     }
   }
 }

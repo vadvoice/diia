@@ -24,7 +24,7 @@ const Card = ({ isActive, type, onDetailsRequest }) => {
       <h3>{header(type)}</h3>
       <Profile />
       <div className="Card-footer">
-        <h4>Додаткова інформація</h4>
+        <p>Додаткова інформація</p>
         <img
           onClick={(_) => onDetailsRequest(type)}
           alt="details"

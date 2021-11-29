@@ -44,7 +44,7 @@ const Profile = ({
         </div>
       </div>
       <div className="Profile-bottom">
-        <h3>{name}</h3>
+        <p>{name}</p>
       </div>
     </div>
   );
