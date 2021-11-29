@@ -4,8 +4,10 @@
   "description": "",
   "keywords": [],
   "main": "src/index.js",
+  "homepage": "http://vadvoice.github.io/diia",
   "dependencies": {
     "classnames": "2.3.1",
+    "gh-pages": "^3.2.3",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "react-modal": "3.14.4",
@@ -23,7 +25,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "browserslist": [
     ">0.2%",
