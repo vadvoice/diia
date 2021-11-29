@@ -5,7 +5,7 @@ import "./Footer.scss";
 const Footer = () => {
   return (
     <footer className="Footer">
-      <NavLink exact activeClassName="active" to="/">
+      <NavLink exact activeClassName="active" to="/diia">
         <img
           className="Footer-img Footer-img__home"
           src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Ffiles.softicons.com%2Fdownload%2Ftoolbar-icons%2Fmono-general-icons-2-by-custom-icon-design%2Fpng%2F512x512%2Fdocument.png&f=1&nofb=1"

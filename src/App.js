@@ -29,7 +29,7 @@ export default function App() {
       {/* TODO: HOC */}
       <div className="App-page-container">
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/diia" element={<Home />} />
           <Route path="/notifications" element={<Notifications />} />
         </Routes>
       </div>
