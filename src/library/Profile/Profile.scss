@@ -1,18 +1,35 @@
 .Profile {
   display: flex;
+  flex-direction: column;
   gap: 1em;
   flex: 1;
   margin: 2em 0;
-  &-data-row {
+  color: inherit;
+  border-bottom: 1px solid;
+  padding-bottom: 1em;
+  &-top {
     display: flex;
-    flex-direction: column;
-    margin-bottom: 1em;
-  }
-  &-logo {
+    gap: 1em;
     flex: 1;
-    img {
-      width: 100%;
-      min-width: 100px;
+    &-data-row {
+      font-size: small;
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 1em;
+    }
+    &-logo {
+      flex: 1;
+      img {
+        border-radius: 5px;
+        width: 100%;
+        min-width: 70px;
+      }
+    }
+  }
+  &-bottom {
+    color: inherit;
+    h3 {
+      text-align: start;
     }
   }
 }

@@ -1,5 +1,13 @@
 .Notifications {
+  margin: 0 2em;
   h3 {
     text-align: center;
+  }
+  .Notification {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F3541;
+    padding: 1em;
+    border-radius: 10px;
   }
 }

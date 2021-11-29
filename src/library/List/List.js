@@ -1,10 +1,15 @@
 import "./List.scss";
-
+const vocabulary = {
+  "GET_INFO": 'Отримати інформацію',
+  "CODE": 'дізнатися код',
+  "QESTIONS": 'Задати питання'
+}
 const List = ({ options }) => {
+  console.log({ options });
   return (
     <ul className="List">
       {options.map((opt) => (
-        <li>{opt}</li>
+        <li>{vocabulary[opt]}</li>
       ))}
     </ul>
   );
