@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/diia/static/css/main.bbd229b7.chunk.css",
-    "main.js": "/diia/static/js/main.fc3a4f41.chunk.js",
-    "main.js.map": "/diia/static/js/main.fc3a4f41.chunk.js.map",
+    "main.css": "/diia/static/css/main.1a125942.chunk.css",
+    "main.js": "/diia/static/js/main.8f4e4e44.chunk.js",
+    "main.js.map": "/diia/static/js/main.8f4e4e44.chunk.js.map",
     "runtime-main.js": "/diia/static/js/runtime-main.9833a7c7.js",
     "runtime-main.js.map": "/diia/static/js/runtime-main.9833a7c7.js.map",
     "static/css/2.b23ae291.chunk.css": "/diia/static/css/2.b23ae291.chunk.css",
-    "static/js/2.d05608e9.chunk.js": "/diia/static/js/2.d05608e9.chunk.js",
-    "static/js/2.d05608e9.chunk.js.map": "/diia/static/js/2.d05608e9.chunk.js.map",
+    "static/js/2.fefdf5b2.chunk.js": "/diia/static/js/2.fefdf5b2.chunk.js",
+    "static/js/2.fefdf5b2.chunk.js.map": "/diia/static/js/2.fefdf5b2.chunk.js.map",
     "index.html": "/diia/index.html",
     "static/css/2.b23ae291.chunk.css.map": "/diia/static/css/2.b23ae291.chunk.css.map",
-    "static/css/main.bbd229b7.chunk.css.map": "/diia/static/css/main.bbd229b7.chunk.css.map",
-    "static/js/2.d05608e9.chunk.js.LICENSE.txt": "/diia/static/js/2.d05608e9.chunk.js.LICENSE.txt"
+    "static/css/main.1a125942.chunk.css.map": "/diia/static/css/main.1a125942.chunk.css.map",
+    "static/js/2.fefdf5b2.chunk.js.LICENSE.txt": "/diia/static/js/2.fefdf5b2.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.9833a7c7.js",
     "static/css/2.b23ae291.chunk.css",
-    "static/js/2.d05608e9.chunk.js",
-    "static/css/main.bbd229b7.chunk.css",
-    "static/js/main.fc3a4f41.chunk.js"
+    "static/js/2.fefdf5b2.chunk.js",
+    "static/css/main.1a125942.chunk.css",
+    "static/js/main.8f4e4e44.chunk.js"
   ]
 }
