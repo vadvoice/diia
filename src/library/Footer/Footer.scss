@@ -1,0 +1,17 @@
+.Footer {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  height: 30px;
+  padding: .5em;
+  img {
+    height: 25px;
+    transition: .3s filter;
+    filter: contrast(0%);
+  }
+  .active {
+    img {
+      filter: contrast(200%);
+    }
+  }
+}

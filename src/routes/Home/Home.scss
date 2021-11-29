@@ -1,0 +1,14 @@
+.Home {
+  flex: 1;
+  height: 100%;
+  &-swiper {
+    flex: 1;
+    height: 100%;
+  }
+  .swiper-slide {
+    height: inherit;
+    display: flex;
+    align-content: center;
+    width: 80%;
+  }
+}
