@@ -4,7 +4,7 @@ import { BrowserRouter } from "react-router-dom";
 
 import App from "./App";
 // import Swiper styles
-import "swiper/css";
+import "swiper/swiper.scss";
 
 const rootElement = document.getElementById("root");
 ReactDOM.render(
